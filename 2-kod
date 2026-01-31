@@ -7,7 +7,7 @@ import base64
 with open("private.pem", "rb") as f:
     private_key = serialization.load_pem_private_key(f.read(), password=None)
 
-message = b"Feruza Shomurodova"
+message = b"Xayitmurodova Dilnoza"
 
 # Imzo yaratish (RSA-PSS + SHA256)
 signature = private_key.sign(
